@@ -1785,7 +1785,6 @@ void KPlexEnum(Graph *subg, int k, int t)
 		if (subg->isExistinG(i) == false)
 			continue;
 
-		cout << "now=" << i << endl;
 		CL.clear();
 		CLdegree.clear();
 		CR.clear();
